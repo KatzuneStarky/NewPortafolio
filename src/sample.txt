@@ -1,0 +1,45 @@
+            <div className="text-me">
+                <h1>Adan Enrique Ramirez Cisneros</h1>
+                <h2>Programador Web / Desarrollador de Sofware</h2>
+            </div>
+            <div className="descripcion">
+                <p>Que tal, soy Adán Enrique Ramirez Cisneros un Ingeniero en Desarrollo de Software al cual le gusta aprender nuevas tecnologias en el area del software, tengo aficion por la programacion web</p>
+                <Link to={'/about'} className='link'>Mas acerca de mi</Link>
+                <Link to={'/contact'} className='link'>Contactame</Link>
+                <div className="social-media">
+                    <div className="wrapper">
+                        <div className="button">
+                            <div className="icon">
+                                <i>
+                                    <FaFacebook />
+                                </i>
+                            </div>
+                            <a href="">Facebook</a>
+                        </div>
+                        <div className="button">
+                            <div className="icon">
+                                <i>
+                                    <FaLinkedin />
+                                </i>
+                            </div>
+                            <a href="">Linkedin</a>
+                        </div>
+                        <div className="button">
+                            <div className="icon">
+                                <i>
+                                    <FaGithub />
+                                </i>
+                            </div>  
+                            <a href="">GitHub</a>                          
+                        </div>
+                        <div className="button">
+                            <div className="icon">
+                                <i>
+                                    <FaTwitter />
+                                </i>                            
+                            </div>
+                            <a href="">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
