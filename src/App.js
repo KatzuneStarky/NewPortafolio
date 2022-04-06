@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <div className='conainer'>
+        <div className='container'>
           
         </div>
         <Routes>          
