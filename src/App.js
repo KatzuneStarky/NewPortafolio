@@ -25,6 +25,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <ToastContainer />
+    <Home /> 
     </div>
   );
 }
