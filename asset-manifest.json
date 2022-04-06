@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/NewPortafolio/static/css/main.32a53aac.css",
-    "main.js": "/NewPortafolio/static/js/main.1b506ad7.js",
+    "main.js": "/NewPortafolio/static/js/main.281a2d1f.js",
     "static/media/rostro.jpg": "/NewPortafolio/static/media/rostro.41ba50a47dee2276811f.jpg",
     "static/media/CV - Ramirez Cisneros Adan Enrique.pdf": "/NewPortafolio/static/media/CV - Ramirez Cisneros Adan Enrique.83e7740d0dbc4c68f7bc.pdf",
     "static/media/fondo2.jpg": "/NewPortafolio/static/media/fondo2.0b0a98083e6e0b072dda.jpg",
     "static/media/fondo1.jpg": "/NewPortafolio/static/media/fondo1.39a426a5b331875e2c72.jpg",
     "index.html": "/NewPortafolio/index.html",
     "main.32a53aac.css.map": "/NewPortafolio/static/css/main.32a53aac.css.map",
-    "main.1b506ad7.js.map": "/NewPortafolio/static/js/main.1b506ad7.js.map"
+    "main.281a2d1f.js.map": "/NewPortafolio/static/js/main.281a2d1f.js.map"
   },
   "entrypoints": [
     "static/css/main.32a53aac.css",
-    "static/js/main.1b506ad7.js"
+    "static/js/main.281a2d1f.js"
   ]
 }
