@@ -11,20 +11,20 @@ function Header() {
 
         toggleBtn.addEventListener("click", () => {
             nav.classList.toggle("open")
-        }) 
-        
-        const onDrag = ({movementY}) => {
+        })
+
+        const onDrag = ({ movementY }) => {
             const navStyle = window.getComputedStyle(nav),
                 navTop = parseInt(navStyle.top),
                 navHeight = parseInt(navStyle.height),
                 windHeight = window.innerHeight
-    
+
             nav.style.top = navTop > 0 ? `${navTop + movementY}px` : "1px"
-            if(navTop > windHeight - navHeight){
+            if (navTop > windHeight - navHeight) {
                 nav.style.top = `${windHeight - navHeight}px`
             }
         }
-        
+
         nav.addEventListener("mousedown", () => {
             nav.addEventListener("mousemove", onDrag)
         })
@@ -53,14 +53,6 @@ function Header() {
                 </span>
 
                 <span style={{ "--i": 3 }}>
-                    <Link to={"/contact"}>
-                        <i>
-                            <AiFillContacts />
-                        </i>
-                    </Link>
-                </span>
-
-                <span style={{ "--i": 2 }}>
                     <Link to={"/profolio"}>
                         <i>
                             <AiFillFolder />
@@ -68,10 +60,18 @@ function Header() {
                     </Link>
                 </span>
 
-                <span style={{ "--i": 1 }}>
+                <span style={{ "--i": 2 }}>
                     <Link to={"/about"}>
                         <i>
                             <FcAbout />
+                        </i>
+                    </Link>
+                </span>
+
+                <span style={{ "--i": 1 }}>
+                    <Link to={"/contact"}>
+                        <i>
+                            <AiFillContacts />
                         </i>
                     </Link>
                 </span>

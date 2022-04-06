@@ -7,6 +7,9 @@ import Contact from './Pages/Contact';
 import Header from './Components/Header'
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import NewProject from './Pages/NewProject';
 
 function App() {
   return (
@@ -17,9 +20,11 @@ function App() {
           <Route path='/' exact element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/profolio' element={<Profolio />} />
+          <Route path='/newProject' element={<NewProject />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <ToastContainer />
     </div>
   );
 }
