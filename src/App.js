@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Header />  
         <Routes>          
-          <Route exact path='/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/profolio' element={<Profolio />} />
           <Route path='/newProject' element={<NewProject />} />
@@ -25,9 +25,6 @@ function App() {
         </Routes>
       </BrowserRouter>
       <ToastContainer />
-      <div className='container'>
-          s
-        </div>
     </div>
   );
 }
