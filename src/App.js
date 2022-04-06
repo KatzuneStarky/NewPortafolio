@@ -16,8 +16,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
+        <div className='conainer'>
+          
+        </div>
         <Routes>          
-          <Route exact path='/NewPortafolio/' element={<Home />} />
+          <Route exact path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/profolio' element={<Profolio />} />
           <Route path='/newProject' element={<NewProject />} />
