@@ -16,12 +16,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
+        <Home />
         <Routes>          
-          <Route path=' https://katzunestarky.github.io/NewPortafolio/' exact element={<Home />} />
-          <Route path='https://katzunestarky.github.io/NewPortafolio/about' element={<About />} />
-          <Route path='https://katzunestarky.github.io/NewPortafolio/profolio' element={<Profolio />} />
-          <Route path='https://katzunestarky.github.io/NewPortafolio/newProject' element={<NewProject />} />
-          <Route path='https://katzunestarky.github.io/NewPortafolio/contact' element={<Contact />} />
+          <Route path='/' exact element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/profolio' element={<Profolio />} />
+          <Route path='/newProject' element={<NewProject />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
       <ToastContainer />
